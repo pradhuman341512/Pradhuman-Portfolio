@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <h1 className="text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1>
+          <Link href="/"><h1 className="text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1></Link>
         </div>
         <div className="footer--items">
           <ul>

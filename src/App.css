@@ -168,6 +168,14 @@ a{
   left: 0;
   right: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .your-class {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
