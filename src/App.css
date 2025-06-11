@@ -1,5 +1,8 @@
-/* Global CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Global CSS */
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -100,6 +103,9 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
+}
+a{
+  text-decoration: none;
 }
 
 /* Pragraphs text large medium small */
@@ -322,6 +328,15 @@ h2 {
 /* About Us Ends */
 
 /* My Portfolio Starts */
+
+.visit-github{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
@@ -354,6 +369,7 @@ h2 {
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: 300px;
 }
 .portfolio--section--card {
   display: flex;
@@ -385,6 +401,7 @@ h2 {
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
+  
 }
 .portfolio--section--card:hover path {
   stroke: #006b6a;

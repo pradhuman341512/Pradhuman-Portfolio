@@ -28,23 +28,26 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
+      "src": "./img/AssetSquare.png",
+      "title": "AssetSquare",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "url": "https://github.com/pradhuman341512/AssetSquare",
       "link": "View In Github"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
+      "src": "./img/dashboard.png",
+      "title": "School Managment Dashboard",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "url": "https://github.com/pradhuman341512/AssetSquare",
       "link": "View In Github"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
+      "src": "./img/beyondkarma.png",
+      "title": "BeyondKarma.ai",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "url": "https://beyondkarma.ai/",
       "link": "View In Github"
     }
   ],

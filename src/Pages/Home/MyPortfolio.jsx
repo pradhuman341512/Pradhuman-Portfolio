@@ -9,7 +9,8 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+           <a href="https://github.com/pradhuman341512" className="visit-github">
+           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -24,8 +25,9 @@ export default function MyPortfolio() {
                 fill="currentColor"
               />
             </svg>
-            Visit My GitHub
-          </button>
+           Visit My GitHub
+          </button></a>
+          
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -40,7 +42,8 @@ export default function MyPortfolio() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio--link">
-                {item.link}
+               <a href={item.url} className="text-md flex  gap-2 ">
+                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -56,6 +59,7 @@ export default function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
+               </a>
               </p>
             </div>
           </div>
