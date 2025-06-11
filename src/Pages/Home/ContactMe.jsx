@@ -7,11 +7,11 @@ export default function ContactMe() {
   const sendEmail = (e) => {
     e.preventDefault(); // Prevent page reload on submit
 
-    emailjs.sendForm(
-      "service_xxx123",      // Replace with your EmailJS service ID
-      "template_abc456",     // Replace with your EmailJS template ID
+        emailjs.sendForm(
+      "service_wvyvnlo",
+      "template_72cbbwp",
       form.current,
-      "user_789xyz"          // Replace with your EmailJS user/public key
+      "SDkhZeBmdFQz9Qxi-"
     )
     .then((result) => {
       alert("Message sent successfully!");
@@ -28,9 +28,10 @@ export default function ContactMe() {
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
-        <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-        </p>
+          <p className="text-lg">
+            Feel free to reach out for collaborations, freelance opportunities, or just a friendly hello.
+          </p>
+
       </div>
       <form ref={form} onSubmit={sendEmail} className="contact--form--container">
         <div className="container">
@@ -79,9 +80,9 @@ export default function ContactMe() {
           <span className="text-md">Choose a topic</span>
           <select name="topic" id="choose-topic" className="contact--input text-md" required>
             <option value="">Select One...</option>
-            <option value="item1">Item 1</option>
-            <option value="item2">Item 2</option>
-            <option value="item3">Item 3</option>
+            <option value="item1">Freelancing</option>
+            <option value="item2">Collaborations</option>
+            <option value="item3">Juat a Friendly</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">

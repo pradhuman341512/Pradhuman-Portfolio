@@ -5,13 +5,12 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Clients Feedback</p>
-          <h2 className="sections--heading">Customer Feedback</h2>
+          <h2 className="sections--heading">Customer and User Feedback</h2>
         </div>
       </div>
       <div className="portfolio--section--container">
         {data?.testimonial?.map((item, index) => (
-          <div key={index} className="testimonial--section--card">
+          <div key={index} className="testimonial--section--card h-[500px]">
             <div className="testimonial--section--card--review">
               {Array.from({ length: 5 }, (reviews, index) => (
                 <svg

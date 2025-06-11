@@ -51,30 +51,49 @@
       "link": "View In Github"
     }
   ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
-    }
-  ]
+"testimonial": [
+  {
+    "id": "1",
+    "count": "5",
+    "src": "./img/avatar-image.png",
+    "description": "He completed my work on time and made it exactly the way I imagined. It was a great experience working with him.",
+    "author_name": "Ramesh Verma",
+    "author_designation": "Small Business Owner, Jaipur"
+  },
+  {
+    "id": "2",
+    "count": "5",
+    "src": "./img/avatar-image-1.png",
+    "description": "I don't know much about technology, but Pradhuman explained everything patiently. Now my site works perfectly on mobile too.",
+    "author_name": "Sunita Devi",
+    "author_designation": "Homepreneur, Varanasi"
+  },
+  {
+    "id": "3",
+    "count": "5",
+    "src": "./img/avatar-image-2.png",
+    "description": "At first I wasn't sure about hiring a freelancer, but he truly won my trust. He delivered even better than what was promised.",
+    "author_name": "Jatin Rawat",
+    "author_designation": "Student, Uttarakhand"
+  },
+  {
+    "id": "4",
+    "count": "5",
+    "src": "./img/avatar-image-2.png",
+    "description": "I wanted a website but had no idea where to start. Pradhuman helped me at every step. Now everyone appreciates how it looks!",
+    "author_name": "Meena Kumari",
+    "author_designation": "Homemaker, Bihar"
+  },
+  {
+    "id": "5",
+    "count": "5",
+    "src": "./img/avatar-image-1.png",
+    "description": "He's a simple guy but does outstanding work. Quick responses, friendly nature, and great technical knowledge — everything was top-notch.",
+    "author_name": "Vikram Joshi",
+    "author_designation": "Freelancer, Indore"
+  }
+]
+
+
+
 }
