@@ -4,12 +4,12 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer--container">
-      <div className="footer--link--container">
+      <div className="footer--link--container gap-10">
         <div>
-          <Link href="/"><h1 className="text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1></Link>
+          <Link href="/" className=""><h1 className="text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1></Link>
         </div>
         <div className="footer--items">
-          <ul>
+          <ul >
             <li>
               <Link
                 activeClass="navbar--active-content"
