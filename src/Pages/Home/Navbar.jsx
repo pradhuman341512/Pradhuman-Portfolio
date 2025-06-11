@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""} `}>
       <div>
-       <h1 className="text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1>
+       <h1 className="text-2xl md:text-4xl lg:text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}

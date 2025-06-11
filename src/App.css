@@ -170,9 +170,8 @@ a{
 }
 
 @media screen and (max-width: 640px) {
-  .your-class {
-    padding-left: 20px;
-    padding-right: 20px;
+  .navbar {
+    padding: 10px 20px;
   }
 }
 
