@@ -14,7 +14,7 @@ function Footer() {
                   <h1 className="text-2xl md:text-4xl lg:text-4xl text-[#027E5D] font-mono ">Pradhuman Singh</h1>
               </Link>
         </div>
-        <div className="footer--items">
+        {/* <div className="footer--items">
           <ul >
             <li>
               <Link
@@ -82,7 +82,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="footer--social--icon">
           <ul>
             <li>
@@ -177,7 +177,7 @@ function Footer() {
         </div>
       </div>
       <hr className="divider" />
-      <div className="flex items-center jusctify-center">
+      <div className="flex items-center jusctify-center bg-gray-100 text-gray-600 text-sm pb-4 ">
        © {new Date().getFullYear()} Pradhuman Singh. All rights reserved.
       
       </div>
