@@ -25,32 +25,41 @@
       "description": "Proficient in building custom websites and landing pages on Webflow, combining design creativity with development efficiency to deliver pixel-perfect projects."
     }
   ],
-  "portfolio": [
-    {
-      "id": "1",
-      "src": "./img/AssetSquare.png",
-      "title": "AssetSquare",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "url": "https://github.com/pradhuman341512/AssetSquare",
-      "link": "View In Github"
-    },
-    {
-      "id": "2",
-      "src": "./img/dashboard.png",
-      "title": "School Managment Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "url": "https://github.com/pradhuman341512/AssetSquare",
-      "link": "View In Github"
-    },
-    {
-      "id": "3",
-      "src": "./img/beyondkarma.png",
-      "title": "BeyondKarma.ai",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "url": "https://beyondkarma.ai/",
-      "link": "View In Github"
-    }
-  ],
+"portfolio": [
+  {
+    "id": "1",
+    "src": "./img/AssetSquare.png",
+    "title": "AssetSquare",
+    "description": "A secure real estate management platform built with the MERN stack. Features include JWT authentication, property listing, client/owner dashboards, and real-time updates.",
+    "url": "https://github.com/pradhuman341512/AssetSquare",
+    "link": "View "
+  },
+  {
+    "id": "2",
+    "src": "./img/dashboard.png",
+    "title": "School Management Dashboard",
+    "description": "A comprehensive school management system with student profiles, attendance tracking, health records, performance metrics, and guardian details, built using React and Next.js.",
+    "url": "https://github.com/pradhuman341512/AssetSquare",
+    "link": "View "
+  },
+  {
+    "id": "3",
+    "src": "./img/beyondkarma.png",
+    "title": "BeyondKarma.ai",
+    "description": "An AI-powered candidate evaluation platform integrating resume parsing, LLM-based RAG pipeline, Google Gemini API, and real-time scoring and feedback for recruiters.",
+    "url": "https://beyondkarma.ai/",
+    "link": "Visit "
+  },
+  {
+    "id": "4",
+    "src": "./img/mtenterprise.png",
+    "title": "MT.Enterprise - RO Service Website",
+    "description": "A modern RO service and product website developed using Next.js, TypeScript, and Tailwind CSS, featuring a product catalog, inquiry form with WhatsApp integration, and a responsive UI.",
+    "url": "https://github.com/pradhuman341512/MT.Enterprise",
+    "link": "View "
+  }
+]
+,
 "testimonial": [
   {
     "id": "1",

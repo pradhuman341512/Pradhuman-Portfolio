@@ -11,7 +11,7 @@ export default function Testimonial() {
       <div className="portfolio--section--container">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card h-[500px]">
-            <div className="testimonial--section--card--review">
+            <div className="testimonial--section--card--review flex flex-inline "  >
               {Array.from({ length: 5 }, (reviews, index) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

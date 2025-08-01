@@ -1,14 +1,19 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-
+// const apiKey = import.meta.env.SERVICE_ID;
+// require("dotenv").config();
 export default function ContactMe() {
   const form = useRef();
 
+  
+  const service_id = process.env.REACT_APP_SERVICE_ID;
+  console.log(service_id);
+  
   const sendEmail = (e) => {
     e.preventDefault(); // Prevent page reload on submit
 
         emailjs.sendForm(
-      "service_wvyvnlo",
+     service_id,
       "template_72cbbwp",
       form.current,
       "SDkhZeBmdFQz9Qxi-"

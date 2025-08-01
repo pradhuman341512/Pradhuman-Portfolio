@@ -39,16 +39,16 @@ p {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  border-radius: 4px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  transition: background-color 0.5s;
+  border-radius: 4px;
   -webkit-transition: background-color 0.5s;
   -moz-transition: background-color 0.5s;
   -ms-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 .btn-outline-primary {
   color: var(--primary);
@@ -171,7 +171,7 @@ a{
 
 @media screen and (max-width: 640px) {
   .navbar {
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
 }
 
@@ -213,7 +213,7 @@ a{
 
 @media screen and (max-width: 640px) {
   .hero--section  {
-    margin-top: 48px;
+    margin-top: 68px;
     padding: 10px 20px;
   }
 }
@@ -374,11 +374,39 @@ a{
   gap: 80px;
 }
 
-@media screen and (max-width:640px){
+.portfolio--section--container {
+  display: grid;
+  gap: 42.6px;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr); /* default: mobile - 1 card */
+}
+
+/* Tablet (≥640px) - 2 cards */
+@media screen and (min-width: 640px) {
+  .portfolio--section--container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Laptop (≥1024px) - 3 cards */
+@media screen and (min-width: 1024px) {
+  .portfolio--section--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop (≥1280px) - 4 cards */
+@media screen and (min-width: 1280px) {
+  .portfolio--section--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* @media screen and (max-width:640px){
   .portfolio--section{
      padding: 10px 20px;
   }
-}
+} */
 
 .portfolio--container-box {
   display: flex;
@@ -392,13 +420,13 @@ a{
   align-items: flex-start;
   gap: 21.3px;
 }
-.portfolio--section--container {
+/* .portfolio--section--container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 42.6px;
   width: 100%;
-}
+} */
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
@@ -429,6 +457,9 @@ a{
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 45px;
 }
 .portfolio--link {
   text-decoration: none;
@@ -437,6 +468,7 @@ a{
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
+  color: blue;
   
 }
 .portfolio--section--card:hover path {
@@ -447,10 +479,10 @@ a{
 /* Testimonial */
 .testimonial--section {
   display: flex;
-  padding: 112px 84.3px;
+  padding: 12px 14.3px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 20px;
   background-color: var(--bg-shade);
 }
 @media screen and (max-width:640px){
@@ -464,21 +496,23 @@ a{
 }
 .testimonial--section--card {
   display: flex;
-  padding: 42.6px;
+  padding: 12.6px;
   flex-direction: column;
+  height: 240px;
   align-items: flex-start;
-  gap: 42.6px;
+  gap: 12.6px;
   flex: 1 0 0;
   border-radius: 8px;
   border: 1.33px solid #006b6a;
 }
-.testimonial--section--card--reviews {
-  display: flex;
-  align-items: flex-start;
+.testimonial--section--card--reviews{
+  display: inline-flex; /* or use flex if you prefer */
+  align-items: center;
   gap: 5.33px;
 }
+
 .testimonial--section--card--author--detail {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 21.3px;
 }
@@ -598,7 +632,7 @@ input[type="checkbox"] {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 42.667px;
+  gap: 32.667px;
   text-decoration: none;
 }
 .footer--items ul > li > a {
@@ -609,7 +643,7 @@ input[type="checkbox"] {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
   flex-shrink: 0;
   text-decoration: none;
 }
